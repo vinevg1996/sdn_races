@@ -1,0 +1,12 @@
+#! /usr/bin/perl
+
+my @params = @ARGV;
+my ($file1, $file2)  = @params;
+
+$pid=fork();
+if  ($pid > 0) {
+    exec("./pf_gf_df > $file2");
+} else {
+    exec("./pf_gf > $file1");
+    exit;
+}

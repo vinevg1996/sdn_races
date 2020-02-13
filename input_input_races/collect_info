@@ -1,0 +1,64 @@
+#! /usr/bin/perl
+
+use REST::Client;
+use JSON;
+
+my @params = @ARGV; 
+
+$controller_ip = "192.168.0.148";
+$device = "of:0000000000000001";
+
+my $client = REST::Client->new();
+
+my $request_uri = "http://$controller_ip:8181/onos/v1/flows/$device?appId=666";
+print $request_uri."\n";
+
+#part1
+print "experiment1\n";
+print "___________\n";
+system("./launch_script logs/exp1_pf_gf.txt logs/exp1_pf_gf_df.txt");
+
+$client->GET($request_uri, {'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'});
+$response = from_json($client->responseContent());
+$size = scalar @{$response->{'flows'}};
+
+print "Number of flow rules in the Switch at the end = ".$size."\n";
+print "Flow rules in the Switch at the end:\n";
+for(my $i=0; $i < $size; $i++) {
+  $priority = $response->{'flows'}[$i]->{'priority'};
+  if ($priority != 40000) {
+    print $priority." ";
+  }
+}
+print "\n";
+
+#delete_everything
+my $request_uri_1 = "http://$controller_ip:8181/onos/v1/flows/application/666";
+$header={'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'};
+$client->DELETE($request_uri_1, $header);
+
+sleep(10);
+
+#part2
+print "experiment2\n";
+print "___________\n";
+system("./launch_script logs/exp2_pf_gf.txt logs/exp2_pf_gf_df.txt");
+
+$client->GET($request_uri, {'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'});
+$response = from_json($client->responseContent());
+$size = scalar @{$response->{'flows'}};
+
+print "Number of flow rules in the Switch at the end = ".$size."\n";
+print "Flow rules in the Switch at the end:\n";
+for(my $i=0; $i < $size; $i++) {
+  $priority = $response->{'flows'}[$i]->{'priority'};
+  if ($priority != 40000) {
+    print $priority." ";
+  }
+}
+print "\n";
+
+#delete_everything
+my $request_uri_1 = "http://$controller_ip:8181/onos/v1/flows/application/666";
+$header={'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'};
+$client->DELETE($request_uri_1, $header);

@@ -1,0 +1,213 @@
+20:16:24.305819 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2882764836:2882764950, ack 1668183638, win 6269, options [nop,nop,TS val 3186605 ecr 3185831], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007228
+20:16:24.306633 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 114:228, ack 1, win 6269, options [nop,nop,TS val 3186605 ecr 3185831], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007229
+20:16:24.306756 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 228, win 96, options [nop,nop,TS val 3186605 ecr 3186605], length 0
+20:16:24.307037 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 228:342, ack 1, win 6269, options [nop,nop,TS val 3186605 ecr 3186605], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000722a
+20:16:24.307515 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 342:456, ack 1, win 6269, options [nop,nop,TS val 3186606 ecr 3186605], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000722b
+20:16:24.307640 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 456, win 96, options [nop,nop,TS val 3186606 ecr 3186605], length 0
+20:16:25.153460 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 456:536, ack 1, win 6269, options [nop,nop,TS val 3186817 ecr 3186606], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000bd
+20:16:25.154085 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 536:544, ack 1, win 6269, options [nop,nop,TS val 3186817 ecr 3186606], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000bd
+20:16:25.154168 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 544, win 96, options [nop,nop,TS val 3186817 ecr 3186817], length 0
+20:16:25.154194 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 1:9, ack 544, win 96, options [nop,nop,TS val 3186817 ecr 3186817], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000bd
+20:16:25.154205 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 9, win 6269, options [nop,nop,TS val 3186817 ecr 3186817], length 0
+20:16:25.496579 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 544:564, ack 9, win 6269, options [nop,nop,TS val 3186903 ecr 3186817], length 20: OpenFlow
+	version 1.0, type STATS_REQUEST, length 20, xid 0x00000a22
+20:16:25.497076 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 9:333, ack 564, win 96, options [nop,nop,TS val 3186903 ecr 3186903], length 324: OpenFlow
+	version 1.0, type STATS_REPLY, length 324, xid 0x00000a22
+20:16:25.497180 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 333, win 6269, options [nop,nop,TS val 3186903 ecr 3186903], length 0
+20:16:25.528396 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 564:620, ack 333, win 6269, options [nop,nop,TS val 3186911 ecr 3186903], length 56: OpenFlow
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0000722f
+20:16:25.528771 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 333:633, ack 620, win 96, options [nop,nop,TS val 3186911 ecr 3186911], length 300: OpenFlow
+	version 1.0, type STATS_REPLY, length 300, xid 0x0000722f
+20:16:25.529230 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 620:632, ack 633, win 6269, options [nop,nop,TS val 3186911 ecr 3186911], length 12: OpenFlow
+	version 1.0, type STATS_REQUEST, length 12, xid 0x00007230
+20:16:25.529595 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 633:16901, ack 632, win 96, options [nop,nop,TS val 3186911 ecr 3186911], length 16268: OpenFlow
+	version 1.0, type STATS_REPLY, length 16268, xid 0x00007230
+20:16:25.567524 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16901, win 6269, options [nop,nop,TS val 3186921 ecr 3186911], length 0
+20:16:26.178290 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 632:712, ack 16901, win 6269, options [nop,nop,TS val 3187073 ecr 3186911], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000be
+20:16:26.179203 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 712:720, ack 16901, win 6269, options [nop,nop,TS val 3187073 ecr 3186911], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000be
+20:16:26.179402 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 720, win 96, options [nop,nop,TS val 3187073 ecr 3187073], length 0
+20:16:26.179579 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16901:16909, ack 720, win 96, options [nop,nop,TS val 3187074 ecr 3187073], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000be
+20:16:26.179588 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16909, win 6269, options [nop,nop,TS val 3187074 ecr 3187074], length 0
+20:16:27.214680 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 720:800, ack 16909, win 6269, options [nop,nop,TS val 3187332 ecr 3187074], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000bf
+20:16:27.217225 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 800:808, ack 16909, win 6269, options [nop,nop,TS val 3187333 ecr 3187074], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000bf
+20:16:27.217480 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 808, win 96, options [nop,nop,TS val 3187333 ecr 3187332], length 0
+20:16:27.217512 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16909:16917, ack 808, win 96, options [nop,nop,TS val 3187333 ecr 3187332], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000bf
+20:16:27.217523 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16917, win 6269, options [nop,nop,TS val 3187333 ecr 3187333], length 0
+20:16:27.249780 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 808:888, ack 16917, win 6269, options [nop,nop,TS val 3187341 ecr 3187333], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c0
+20:16:27.250766 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 888:896, ack 16917, win 6269, options [nop,nop,TS val 3187341 ecr 3187333], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c0
+20:16:27.250911 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 896, win 96, options [nop,nop,TS val 3187341 ecr 3187341], length 0
+20:16:27.250955 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16917:16925, ack 896, win 96, options [nop,nop,TS val 3187341 ecr 3187341], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c0
+20:16:27.287822 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16925, win 6269, options [nop,nop,TS val 3187351 ecr 3187341], length 0
+20:16:27.405577 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 896:1010, ack 16925, win 6269, options [nop,nop,TS val 3187380 ecr 3187341], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007239
+20:16:27.406253 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1010:1124, ack 16925, win 6269, options [nop,nop,TS val 3187380 ecr 3187341], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000723a
+20:16:27.406369 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1124, win 96, options [nop,nop,TS val 3187380 ecr 3187380], length 0
+20:16:27.406751 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1124:1238, ack 16925, win 6269, options [nop,nop,TS val 3187380 ecr 3187380], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000723b
+20:16:27.407071 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1238:1352, ack 16925, win 6269, options [nop,nop,TS val 3187380 ecr 3187380], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000723c
+20:16:27.407192 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1352, win 96, options [nop,nop,TS val 3187380 ecr 3187380], length 0
+20:16:28.287392 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1352:1432, ack 16925, win 6269, options [nop,nop,TS val 3187600 ecr 3187380], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c1
+20:16:28.288394 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1432:1440, ack 16925, win 6269, options [nop,nop,TS val 3187601 ecr 3187380], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c1
+20:16:28.288504 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1440, win 96, options [nop,nop,TS val 3187601 ecr 3187600], length 0
+20:16:28.288532 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16925:16933, ack 1440, win 96, options [nop,nop,TS val 3187601 ecr 3187600], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c1
+20:16:28.288543 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16933, win 6269, options [nop,nop,TS val 3187601 ecr 3187601], length 0
+20:16:29.336056 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1440:1520, ack 16933, win 6269, options [nop,nop,TS val 3187863 ecr 3187601], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c2
+20:16:29.336870 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1520:1528, ack 16933, win 6269, options [nop,nop,TS val 3187863 ecr 3187601], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c2
+20:16:29.336981 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1528, win 96, options [nop,nop,TS val 3187863 ecr 3187863], length 0
+20:16:29.337020 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16933:16941, ack 1528, win 96, options [nop,nop,TS val 3187863 ecr 3187863], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c2
+20:16:29.337030 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16941, win 6269, options [nop,nop,TS val 3187863 ecr 3187863], length 0
+20:16:29.372555 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1528:1608, ack 16941, win 6269, options [nop,nop,TS val 3187872 ecr 3187863], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c3
+20:16:29.373545 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1608:1616, ack 16941, win 6269, options [nop,nop,TS val 3187872 ecr 3187863], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c3
+20:16:29.373667 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1616, win 96, options [nop,nop,TS val 3187872 ecr 3187872], length 0
+20:16:29.373701 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16941:16949, ack 1616, win 96, options [nop,nop,TS val 3187872 ecr 3187872], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c3
+20:16:29.411530 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16949, win 6269, options [nop,nop,TS val 3187882 ecr 3187872], length 0
+20:16:30.405798 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1616:1696, ack 16949, win 6269, options [nop,nop,TS val 3188130 ecr 3187872], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c4
+20:16:30.406522 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1696:1704, ack 16949, win 6269, options [nop,nop,TS val 3188130 ecr 3187872], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c4
+20:16:30.406610 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1704, win 96, options [nop,nop,TS val 3188130 ecr 3188130], length 0
+20:16:30.406636 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16949:16957, ack 1704, win 96, options [nop,nop,TS val 3188130 ecr 3188130], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c4
+20:16:30.406647 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 16957, win 6269, options [nop,nop,TS val 3188130 ecr 3188130], length 0
+20:16:30.495752 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1704:1724, ack 16957, win 6269, options [nop,nop,TS val 3188153 ecr 3188130], length 20: OpenFlow
+	version 1.0, type STATS_REQUEST, length 20, xid 0x00000a23
+20:16:30.496350 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 16957:17281, ack 1724, win 96, options [nop,nop,TS val 3188153 ecr 3188153], length 324: OpenFlow
+	version 1.0, type STATS_REPLY, length 324, xid 0x00000a23
+20:16:30.496382 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 17281, win 6269, options [nop,nop,TS val 3188153 ecr 3188153], length 0
+20:16:30.505784 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1724:1838, ack 17281, win 6269, options [nop,nop,TS val 3188155 ecr 3188153], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007246
+20:16:30.506450 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1838:1952, ack 17281, win 6269, options [nop,nop,TS val 3188155 ecr 3188153], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007247
+20:16:30.506563 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 1952, win 96, options [nop,nop,TS val 3188155 ecr 3188155], length 0
+20:16:30.506787 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 1952:2066, ack 17281, win 6269, options [nop,nop,TS val 3188155 ecr 3188155], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007248
+20:16:30.507105 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2066:2180, ack 17281, win 6269, options [nop,nop,TS val 3188155 ecr 3188155], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007249
+20:16:30.507206 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 2180, win 96, options [nop,nop,TS val 3188155 ecr 3188155], length 0
+20:16:30.527942 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2180:2236, ack 17281, win 6269, options [nop,nop,TS val 3188161 ecr 3188155], length 56: OpenFlow
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0000724a
+20:16:30.528358 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 17281:17773, ack 2236, win 96, options [nop,nop,TS val 3188161 ecr 3188161], length 492: OpenFlow
+	version 1.0, type STATS_REPLY, length 492, xid 0x0000724a
+20:16:30.532765 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2236:2248, ack 17773, win 6269, options [nop,nop,TS val 3188162 ecr 3188161], length 12: OpenFlow
+	version 1.0, type STATS_REQUEST, length 12, xid 0x0000724c
+20:16:30.533280 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 17773:34041, ack 2248, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 16268: OpenFlow
+	version 1.0, type STATS_REPLY, length 16268, xid 0x0000724c
+20:16:30.533658 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2248:2320, ack 34041, win 6252, options [nop,nop,TS val 3188162 ecr 3188162], length 72: OpenFlow
+	version 1.0, type FLOW_MOD, length 72, xid 0x000000c5
+20:16:30.533843 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34041:34129, ack 2320, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 88: OpenFlow
+	version 1.0, type FLOW_REMOVED, length 88, xid 0x00000000
+20:16:30.533884 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34129:34217, ack 2320, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 88: OpenFlow
+	version 1.0, type FLOW_REMOVED, length 88, xid 0x00000000
+20:16:30.533913 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34217:34305, ack 2320, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 88: OpenFlow
+	version 1.0, type FLOW_REMOVED, length 88, xid 0x00000000
+20:16:30.534242 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2320:2328, ack 34305, win 6252, options [nop,nop,TS val 3188162 ecr 3188162], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c5
+20:16:30.534376 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34305:34313, ack 2328, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c5
+20:16:30.534591 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2328:2400, ack 34313, win 6252, options [nop,nop,TS val 3188162 ecr 3188162], length 72: OpenFlow
+	version 1.0, type FLOW_MOD, length 72, xid 0x000000c7
+20:16:30.534899 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2400:2408, ack 34313, win 6252, options [nop,nop,TS val 3188162 ecr 3188162], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c7
+20:16:30.534990 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 2408, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 0
+20:16:30.535021 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34313:34321, ack 2408, win 96, options [nop,nop,TS val 3188162 ecr 3188162], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c7
+20:16:30.535275 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2408:2480, ack 34321, win 6252, options [nop,nop,TS val 3188162 ecr 3188162], length 72: OpenFlow
+	version 1.0, type FLOW_MOD, length 72, xid 0x000000c6
+20:16:30.535907 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2480:2488, ack 34321, win 6252, options [nop,nop,TS val 3188163 ecr 3188162], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c6
+20:16:30.536022 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 2488, win 96, options [nop,nop,TS val 3188163 ecr 3188162], length 0
+20:16:30.536059 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34321:34329, ack 2488, win 96, options [nop,nop,TS val 3188163 ecr 3188162], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c6
+20:16:30.575445 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 34329, win 6269, options [nop,nop,TS val 3188173 ecr 3188163], length 0
+20:16:31.434336 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2488:2568, ack 34329, win 6269, options [nop,nop,TS val 3188387 ecr 3188163], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c8
+20:16:31.434937 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2568:2576, ack 34329, win 6269, options [nop,nop,TS val 3188387 ecr 3188163], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c8
+20:16:31.435020 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 2576, win 96, options [nop,nop,TS val 3188387 ecr 3188387], length 0
+20:16:31.435046 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34329:34337, ack 2576, win 96, options [nop,nop,TS val 3188387 ecr 3188387], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c8
+20:16:31.435058 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 34337, win 6269, options [nop,nop,TS val 3188387 ecr 3188387], length 0
+20:16:31.460806 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2576:2656, ack 34337, win 6269, options [nop,nop,TS val 3188394 ecr 3188387], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x000000c9
+20:16:31.461423 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2656:2664, ack 34337, win 6269, options [nop,nop,TS val 3188394 ecr 3188387], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000c9
+20:16:31.461507 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 2664, win 96, options [nop,nop,TS val 3188394 ecr 3188394], length 0
+20:16:31.461535 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34337:34345, ack 2664, win 96, options [nop,nop,TS val 3188394 ecr 3188394], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000c9
+20:16:31.499884 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 34345, win 6269, options [nop,nop,TS val 3188404 ecr 3188394], length 0
+20:16:33.605598 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2664:2778, ack 34345, win 6269, options [nop,nop,TS val 3188930 ecr 3188394], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007258
+20:16:33.606331 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2778:2892, ack 34345, win 6269, options [nop,nop,TS val 3188930 ecr 3188394], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007259
+20:16:33.606476 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 2892, win 96, options [nop,nop,TS val 3188930 ecr 3188930], length 0
+20:16:33.606748 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 2892:3006, ack 34345, win 6269, options [nop,nop,TS val 3188930 ecr 3188930], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000725a
+20:16:33.607114 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3006:3120, ack 34345, win 6269, options [nop,nop,TS val 3188930 ecr 3188930], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x0000725b
+20:16:33.607248 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 3120, win 96, options [nop,nop,TS val 3188930 ecr 3188930], length 0
+20:16:35.496049 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3120:3140, ack 34345, win 6269, options [nop,nop,TS val 3189403 ecr 3188930], length 20: OpenFlow
+	version 1.0, type STATS_REQUEST, length 20, xid 0x00000a24
+20:16:35.496463 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34345:34669, ack 3140, win 96, options [nop,nop,TS val 3189403 ecr 3189403], length 324: OpenFlow
+	version 1.0, type STATS_REPLY, length 324, xid 0x00000a24
+20:16:35.496486 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [.], ack 34669, win 6269, options [nop,nop,TS val 3189403 ecr 3189403], length 0
+20:16:35.528453 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3140:3196, ack 34669, win 6269, options [nop,nop,TS val 3189411 ecr 3189403], length 56: OpenFlow
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0000725d
+20:16:35.528745 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 34669:35065, ack 3196, win 96, options [nop,nop,TS val 3189411 ecr 3189411], length 396: OpenFlow
+	version 1.0, type STATS_REPLY, length 396, xid 0x0000725d
+20:16:35.529089 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3196:3208, ack 35065, win 6269, options [nop,nop,TS val 3189411 ecr 3189411], length 12: OpenFlow
+	version 1.0, type STATS_REQUEST, length 12, xid 0x0000725e
+20:16:35.529391 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 35065:51333, ack 3208, win 96, options [nop,nop,TS val 3189411 ecr 3189411], length 16268: OpenFlow
+	version 1.0, type STATS_REPLY, length 16268, xid 0x0000725e
+20:16:35.535858 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3208:3280, ack 51333, win 6269, options [nop,nop,TS val 3189413 ecr 3189411], length 72: OpenFlow
+	version 1.0, type FLOW_MOD, length 72, xid 0x000000ca
+20:16:35.536144 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 51333:51421, ack 3280, win 96, options [nop,nop,TS val 3189413 ecr 3189413], length 88: OpenFlow
+	version 1.0, type FLOW_REMOVED, length 88, xid 0x00000000
+20:16:35.536169 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 51421:51509, ack 3280, win 96, options [nop,nop,TS val 3189413 ecr 3189413], length 88: OpenFlow
+	version 1.0, type FLOW_REMOVED, length 88, xid 0x00000000
+20:16:35.536518 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3280:3288, ack 51509, win 6269, options [nop,nop,TS val 3189413 ecr 3189413], length 8: OpenFlow
+	version 1.0, type BARRIER_REQUEST, length 8, xid 0x000000ca
+20:16:35.536609 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [P.], seq 51509:51517, ack 3288, win 96, options [nop,nop,TS val 3189413 ecr 3189413], length 8: OpenFlow
+	version 1.0, type BARRIER_REPLY, length 8, xid 0x000000ca
+20:16:35.540875 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3288:3368, ack 51517, win 6269, options [nop,nop,TS val 3189414 ecr 3189413], length 80: OpenFlow
+	version 1.0, type FLOW_MOD, length 80, xid 0x00000000
+20:16:35.579447 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 3368, win 96, options [nop,nop,TS val 3189424 ecr 3189414], length 0
+20:16:36.705324 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3368:3482, ack 51517, win 6269, options [nop,nop,TS val 3189705 ecr 3189424], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007264
+20:16:36.705357 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 3482, win 96, options [nop,nop,TS val 3189705 ecr 3189705], length 0
+20:16:36.705934 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3482:3596, ack 51517, win 6269, options [nop,nop,TS val 3189705 ecr 3189705], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007265
+20:16:36.705946 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 3596, win 96, options [nop,nop,TS val 3189705 ecr 3189705], length 0
+20:16:36.706190 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3596:3710, ack 51517, win 6269, options [nop,nop,TS val 3189705 ecr 3189705], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007266
+20:16:36.706198 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 3710, win 96, options [nop,nop,TS val 3189705 ecr 3189705], length 0
+20:16:36.706402 IP 192.168.0.149.6653 > 192.168.0.149.48692: Flags [P.], seq 3710:3824, ack 51517, win 6269, options [nop,nop,TS val 3189705 ecr 3189705], length 114: OpenFlow
+	version 1.0, type PACKET_OUT, length 114, xid 0x00007267
+20:16:36.706411 IP 192.168.0.149.48692 > 192.168.0.149.6653: Flags [.], ack 3824, win 96, options [nop,nop,TS val 3189705 ecr 3189705], length 0
+

@@ -1,0 +1,78 @@
+#! /usr/bin/perl
+
+use REST::Client;
+use JSON;
+
+my @params = @ARGV;
+my $max_flow_rules = 100;
+
+$controller_ip = "192.168.0.148";
+$device = "of:0000000000000001";
+
+my $client = REST::Client->new();
+
+my $request_uri = "http://$controller_ip:8181/onos/v1/flows/$device?appId=666";
+print $request_uri."\n";
+
+print "pf_gf_df\n";
+
+#sleep(0.8);
+sleep(1);
+
+print "start\n";
+
+$client->GET($request_uri, {'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'});
+$response1 = from_json($client->responseContent());
+$size1 = scalar @{$response1->{'flows'}};
+
+#part2
+$del_rule=-1;
+$total_size=$size1;
+print "total_size = ".$total_size."\n";
+for(my $j=0; $j < $total_size; $j++) {
+    my $priority = $response1->{'flows'}[$j]->{'priority'};
+    if($priority != 40000) {
+        $id = $response1->{'flows'}[$j]->{'id'};
+        my $request_uri_1 = "http://$controller_ip:8181/onos/v1/flows/$device/$id";
+        $header={'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'};
+     	$client->DELETE($request_uri_1, $header);
+	#print "Response Code ".$client->responseCode()."\n";
+	#print "priority = ".$priority."\n";
+        #print "id = ".$id."\n";
+    }
+}
+
+sleep(1);
+
+$client->GET($request_uri, {'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'});
+$response2 = from_json($client->responseContent());
+$size2 = scalar @{$response2->{'flows'}};
+print $size2."\n";
+
+print "Number of flow rules in the Switch at the beginning = ".$size1."\n";
+print "Flow rules in the Switch at the beginning:\n";
+for(my $i=0; $i < $size1; $i++) {
+  $priority = $response1->{'flows'}[$i]->{'priority'};
+  if ($priority != 40000) {
+    print $priority." ";
+  }
+}
+print "\n";
+
+print "Number of flow rules in the Switch after deleting = ".$size2."\n";
+print "Flow rules in the Switch after deleting:\n";
+for(my $i=0; $i < $size2; $i++) {
+  $priority = $response2->{'flows'}[$i]->{'priority'};
+  if ($priority != 40000) {
+    print $priority." ";
+  }
+}
+print "\n";
+
+#part 3
+#delete_everything
+#my $request_uri_1 = "http://$controller_ip:8181/onos/v1/flows/application/666";
+
+#$header={'Authorization' => 'Basic b25vczpyb2Nrcw==', 'Accept' => 'application/json'};
+#$client->DELETE($request_uri_1, $header);
+
